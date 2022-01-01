@@ -1,0 +1,34 @@
+{
+  "name": "cloud-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon  app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-flash": "^0.0.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.1.4",
+    "node-geocoder": "^3.28.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
